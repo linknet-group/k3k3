@@ -21,7 +21,7 @@ const Welcome = () =>{
     distance trip memorable
     </p>
 
-    <Link href="#">
+    <Link href="/">
     <div className="flex justify-end px-4">
 <FaArrowRight size={20} className='border rounded-[30px] border-black' />
 </div>
