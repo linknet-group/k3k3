@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import Image from 'next/image';
 
 import Link from 'next/link';
 
@@ -14,8 +15,7 @@ const Welcome = () =>{
     <p>Start your journey with ease  <br />
     and convenience. Enjoy the ride!
     </p>
-
-    <img src="" alt="k3k3" />
+<Image src="" alt='k3k'></Image>
 
     <p>We're here to make your short <br />
     distance trip memorable
