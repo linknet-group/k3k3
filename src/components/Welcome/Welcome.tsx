@@ -1,12 +1,15 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 
+import Link from 'next/link';
+
 const Welcome = () =>{
     return(
 
-<div>
+<div className='bg-yellow-400'>
  
  <div>
+
     <h1 className='font-bold text-[2rem]'>welcome</h1>
     <p>Start your journey with ease  <br />
     and convenience. Enjoy the ride!
@@ -18,8 +21,14 @@ const Welcome = () =>{
     distance trip memorable
     </p>
 
-    <FaArrowRight size={20} className='border rounded-[30px] border-black' />
+    <Link href="#">
+    <div className="flex justify-end px-4">
+<FaArrowRight size={20} className='border rounded-[30px] border-black' />
+</div>
+    </Link>
 
+    
+<Link className='text-red-500 underline' href="/LoginPage">Back to Login</Link>
  </div>
 
 </div>

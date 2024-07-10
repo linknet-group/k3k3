@@ -1,3 +1,4 @@
+import Welcome from '@/components/Welcome/Welcome';
 import React from 'react'
 
 const WelcomePage = () =>{
@@ -5,7 +6,7 @@ const WelcomePage = () =>{
     return(
 
         <div>
-            
+           <Welcome /> 
         </div>
     )
 }
