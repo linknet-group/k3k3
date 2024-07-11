@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Welcome = () =>{
     return(
 
-<div className='bg-yellow-400'>
+<div className='bg-yellow-400 h-[100vh]'>
  
  <div>
 
