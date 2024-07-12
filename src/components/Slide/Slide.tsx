@@ -16,7 +16,7 @@ const SwiperPage = () => {
   return (
     <div>
     
-      <Swiper className='mt-[-232px]'
+      <Swiper className='mt-[-269px]'
         modules={[Navigation, Pagination, Scrollbar]}
         spaceBetween={50}
         slidesPerView={1}
@@ -26,10 +26,10 @@ const SwiperPage = () => {
       >
       <SwiperSlide className='p-[0px]'>
           <div className='mt-[0px]'>
-          <Image src={k3k32} alt='k3k31' className='w-full h-fit'></Image>
+          <Image src={k3k32} alt='k3k31' className='w-[100%] m-auto'></Image>
 <div className='mt-[40px]'>
 <h2 className='text-center font-bold text-lg'>Request Ride</h2>
-          <p className='p-[50px] mt-[-40px] text-center'>
+          <p className='p-[20px] mt-[30px] text-center'>
             Discover hassle-free keke bokkings with just a tap.
             Wherever you are headed, weve got you covered
           </p>
@@ -41,10 +41,10 @@ const SwiperPage = () => {
 
         <SwiperSlide>
           <div >
-          <Image src={k3k33} alt='k3k31' className='w-full h-fit ' ></Image>
-          <div className='m-[40px]'>
+          <Image src={k3k33} alt='k3k31' className='w-[100%] m-auto'  ></Image>
+          <div className='mt-[40px]'>
 <h2 className='text-center font-bold text-lg'>Book Driver</h2>
-          <p className='p-[50px] mt-[-40px] text-center'>
+          <p className='p-[20px] mt-[10px] text-center'>
             Easily book a reliable keke driver through our app.Enjoy a smooth
             journey to your destination!
           </p>
@@ -56,12 +56,12 @@ const SwiperPage = () => {
 
 
         <SwiperSlide className='p-[0px]'>
-          <div className='mt-[0px]'>
-          <Image src={k3k34} alt='k3k31' className='w-full h-fit'></Image>
+          <div className='mt-[40px]'>
+          <Image src={k3k34} alt='k3k31' className='w-[100%] m-auto'></Image>
           <div className='m-[40px]'>
 <h2 className='text-center font-bold text-lg'>Track Driver</h2>
-          <p className='p-[50px] mt-[-40px] text-center'>
-            Stay updated in real-time on your keke driver's location to know exactly
+          <p className='p-[20px] mt-[10px] text-center'>
+            Stay updated in real-time on your keke driver location to know exactly
             when they will arrive!
           </p>
 </div>
