@@ -25,10 +25,10 @@ const SignUp = () => {
         <label htmlFor="">Confirm Password</label>
         <input className='border rounded-[10px] outline-gray-500 p-[5px]' type="text" />
 
-
+<div className='pb-[20px]'></div>
 <button type='submit' className='text-white text-1xl py-0.5  border rounded-[15px] bg-red-500'>Create Account</button>
 
-<div className="flex items-center gap-2">
+<div className="flex justify-center items-center gap-2">
 <p>Already have an account?</p>
 <Link href="/LoginPage" className='text-red-500 underline'>Sign In</Link>
 </div>

@@ -20,7 +20,7 @@ const Login = () => {
         <input className='border rounded-[10px] outline-gray-500 p-[5px]' type="text" />
 
        
-
+<div className='pb-[10px]'></div>
 <button type='submit' className='text-white text-1xl py-0.5 border rounded-[15px] bg-red-500'>Login</button>
 
 <Link className='text-red-500 underline' href="/WelcomePage">welcome Page</Link>
