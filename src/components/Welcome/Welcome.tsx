@@ -10,23 +10,23 @@ import Link from 'next/link';
 const Welcome = () =>{
     return(
 
-<div className='bg-yellow-400 h-[100vh]'>
+<div className='bg-yellow-400 h-full  '>
  
  <div>
 
-    <h1 className='font-bold text-[2rem]'>welcome</h1>
-    <p>Start your journey with ease  <br />
+    <h1 className='font-bold text-[2rem] p-5'>welcome</h1>
+    <p className='p-5 mt-[-35px]'>Start your journey with ease  <br />
     and convenience. Enjoy the ride!
     </p>
-<Image src={k3k31} alt='k3k'></Image>
+<Image src={k3k31} alt='k3k' ></Image>
 
-    <p>We're here to make your short <br />
+    <p className='p-5'>We're here to make your short <br />
     distance trip memorable
     </p>
 
     <Link href="/SlidePage">
-    <div className="flex justify-end px-4">
-<FaArrowRight size={20} className='border rounded-[30px] border-black' />
+    <div className="flex justify-end px-4 ">
+<FaArrowRight size={25} className='border rounded-[30px]  border-black ' />
 </div>
     </Link>
 
