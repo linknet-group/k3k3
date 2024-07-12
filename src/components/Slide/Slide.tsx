@@ -26,7 +26,7 @@ const SwiperPage = () => {
       >
       <SwiperSlide className='p-[0px]'>
           <div className='mt-[0px]'>
-          <Image src={k3k32} alt='k3k31' className='w-[100%] m-auto'></Image>
+          <Image src={k3k32} alt='k3k31' className='w-full h-[100vh]  m-auto'></Image>
 <div className='mt-[40px]'>
 <h2 className='text-center font-bold text-lg'>Request Ride</h2>
           <p className='p-[20px] mt-[30px] text-center'>
@@ -41,7 +41,7 @@ const SwiperPage = () => {
 
         <SwiperSlide>
           <div >
-          <Image src={k3k33} alt='k3k31' className='w-[100%] m-auto'  ></Image>
+          <Image src={k3k33} alt='k3k31' className='w-[100%] h-[100vh] m-auto'  ></Image>
           <div className='mt-[40px]'>
 <h2 className='text-center font-bold text-lg'>Book Driver</h2>
           <p className='p-[20px] mt-[10px] text-center'>
@@ -57,7 +57,7 @@ const SwiperPage = () => {
 
         <SwiperSlide className='p-[0px]'>
           <div className='mt-[40px]'>
-          <Image src={k3k34} alt='k3k31' className='w-[100%] m-auto'></Image>
+          <Image src={k3k34} alt='k3k31' className='w-[100%]  h-[95vh] m-auto'></Image>
           <div className='m-[40px]'>
 <h2 className='text-center font-bold text-lg'>Track Driver</h2>
           <p className='p-[20px] mt-[10px] text-center'>
