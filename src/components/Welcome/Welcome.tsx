@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
-
+import Image from 'next/image';
+import k3k31 from "../../../public/k3k31.jpeg"
 
 import Link from 'next/link';
 
@@ -15,8 +17,7 @@ const Welcome = () =>{
     <p>Start your journey with ease  <br />
     and convenience. Enjoy the ride!
     </p>
-
-
+<Image src={k3k31} alt='k3k'></Image>
 
     <p>We're here to make your short <br />
     distance trip memorable
