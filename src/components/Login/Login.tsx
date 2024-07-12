@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div>
 
-<div className='p-[20px] m-[20px] mt-[100px]'>
+<div className='container mx-auto p-[20px] m-[20px]'>
     <h1 className='font-bold text-2xl underline'>Welcome</h1>
     <p>KIndly enter your deatils <br /> lets ride</p>
     <form action="" className='grid  py-10 gap-[10px]'>

@@ -7,7 +7,7 @@ const SignUp = () => {
   return (
     <div>
 
-<div className='p-[20px] m-[20px] mt-[100px]'>
+<div className='container mx-auto p-[20px] m-[20px] '>
     <h1 className='text-center font-bold text-2xl underline'>Create An Account</h1>
     <form action="" className='grid  py-10 gap-[10px]'>
         <label htmlFor="">Name</label>

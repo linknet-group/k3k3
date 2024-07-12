@@ -10,9 +10,9 @@ import Link from 'next/link';
 const Welcome = () =>{
     return(
 
-<div className='bg-yellow-400 h-full  '>
+<div className=' bg-yellow-400 h-full  '>
  
- <div>
+ <div className='container mx-auto'>
 
     <h1 className='font-bold text-[2rem] p-5'>welcome</h1>
     <p className='p-5 mt-[-35px]'>Start your journey with ease  <br />
