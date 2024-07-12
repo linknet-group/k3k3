@@ -26,7 +26,7 @@ const SwiperPage = () => {
       >
       <SwiperSlide className='p-[0px]'>
           <div className='mt-[0px]'>
-          <Image src={k3k32} alt='k3k31' className='w-full h-[670px]'></Image>
+          <Image src={k3k32} alt='k3k31' className='w-fit h-fit'></Image>
           <p className='p-[50px] mt-[0px] text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quod sequi optio facilis nisi deserunt libero voluptatem quidem voluptates iusto!</p>
           </div>
        
@@ -34,7 +34,7 @@ const SwiperPage = () => {
 
         <SwiperSlide>
           <div >
-          <Image src={k3k33} alt='k3k31' className='w-full h-[670px]' ></Image>
+          <Image src={k3k33} alt='k3k31' className='w-fit h-fit ' ></Image>
           <p className='p-[50px] mt-[0px] text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quod sequi optio facilis nisi deserunt libero voluptatem quidem voluptates iusto!</p>
           </div>
        
@@ -43,7 +43,7 @@ const SwiperPage = () => {
 
         <SwiperSlide className='p-[0px]'>
           <div className='mt-[0px]'>
-          <Image src={k3k34} alt='k3k31' className='w-full h-[670px]'></Image>
+          <Image src={k3k34} alt='k3k31' className='w-fit h-fit'></Image>
           <p className='p-[50px] mt-[0px] text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quod sequi optio facilis nisi deserunt libero voluptatem quidem voluptates iusto!</p>
           </div>
        
