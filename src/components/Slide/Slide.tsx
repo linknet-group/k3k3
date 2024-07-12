@@ -61,7 +61,7 @@ const SwiperPage = () => {
           <div className='m-[40px]'>
 <h2 className='text-center font-bold text-lg'>Track Driver</h2>
           <p className='p-[50px] mt-[-40px] text-center'>
-            Stay updated in real-time on your keke driver's location to know exactly
+            Stay updated in real-time on your keke &apos;driver's location to know exactly
             when they will arrive!
           </p>
 </div>
