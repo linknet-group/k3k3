@@ -26,7 +26,7 @@ const SignUp = () => {
         <input className='border rounded-[10px] outline-gray-500 p-[5px]' type="text" />
 
 
-<button type='submit' className='text-white text-2xl px-4 py-2 border rounded-[15px] bg-red-500'>Create Account</button>
+<button type='submit' className='text-white text-1xl py-0.5  border rounded-[15px] bg-red-500'>Create Account</button>
 
 <div className="flex items-center gap-2">
 <p>Already have an account?</p>
