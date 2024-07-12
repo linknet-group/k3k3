@@ -9,7 +9,7 @@ const SignUp = () => {
 
 <div className='container mx-auto p-[20px] m-[20px] '>
     <h1 className='text-center font-bold text-2xl underline'>Create An Account</h1>
-    <form action="" className='grid  py-10 gap-[10px]'>
+    <form action="" className='grid  py-10 gap-[2px]'>
         <label htmlFor="">Name</label>
         <input className='border rounded-[10px] outline-gray-500 p-[5px]' type="text" />
 
