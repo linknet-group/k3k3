@@ -152,7 +152,7 @@ const SignUp = () => {
             onChange={handleChange}
           />
 
-       <button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)} className="absolute right-2 top-2 ">
+       <button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)} className="absolute  top-2 ">
             {confirmPasswordVisible ? "Hide" : "Show"}
           </button>
 
