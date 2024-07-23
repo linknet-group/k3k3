@@ -131,7 +131,7 @@ const SignUp = () => {
           />
           
           <button  type="button" onClick={() => setPasswordVisible(!passwordVisible)} className="absolute right-2 top-2">
-            {passwordVisible ? "Hide password" : "Show password"}
+            {passwordVisible ? "Hide" : "Show"}
           </button>
 
           </div>
@@ -153,7 +153,7 @@ const SignUp = () => {
           />
 
        <button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)} className="absolute right-2 top-2">
-            {confirmPasswordVisible ? "Hide password" : "Show password"}
+            {confirmPasswordVisible ? "Hide" : "Show"}
           </button>
 
 

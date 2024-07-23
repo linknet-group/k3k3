@@ -107,7 +107,7 @@ const Login = () => {
         required
         />
   <button  type="button" onClick={() => setPasswordVisible(!passwordVisible)} className="absolute right-2 top-2">
-            {passwordVisible ? "Hide password" : "Show password"}
+            {passwordVisible ? "Hide" : "Show"}
           </button>
 </div>
 
