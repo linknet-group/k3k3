@@ -134,7 +134,7 @@ Login
 
 {error && <p className="text-red-500">{error}</p>}
 
-<Link className='text-red-500 underline' href="/WelcomePage">welcome Page</Link>
+<Link className='text-red-500 underline' href="/">Sign Up</Link>
 
 
 
