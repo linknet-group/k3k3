@@ -24,6 +24,8 @@ const SignUp = () => {
 
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [emailError, setEmailError] = useState<string | null>(null);
+  // const [otherFieldError, setOtherFieldError] = useState<string | null>(null);
 
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [confirmPasswordVisible, setConfirmPasswordVisible] = useState(false);
@@ -34,11 +36,39 @@ const SignUp = () => {
     event.preventDefault();
     setIsLoading(true);
 
+   
+
     if (data.password !== data.confirm_password) {
       setError("Passwords do not match");
       setIsLoading(false);
       return;
     }
+
+
+    let isValid = true;
+
+  
+    if (!data.email) {
+      setEmailError('Invalid email');
+      isValid = false;
+    } else {
+      setEmailError(null);
+    }
+
+    // // Other field validation
+    // if (!data.otherField) {
+    //   setOtherFieldError('Other field not inputted');
+    //   isValid = false;
+    // } else {
+    //   setOtherFieldError(null);
+    // }
+
+    if (isValid) {
+     
+      console.log('Form submitted successfully');
+      // alert("form submitted successfully")
+    }
+
 
     try {
       const response = await fetch("http://localhost:8000/api/signup/", {
@@ -71,7 +101,7 @@ const SignUp = () => {
     } catch (error) {
       console.error("Error submitting form:", error);
       // alert("A user is already using the same email");
-      setError("A user is already using the same email");
+      setError("A user is already using this email or check your input field");
       setIsLoading(false);
     }
   };
@@ -119,7 +149,7 @@ const SignUp = () => {
             onChange={handleChange}
             required
           />
-
+         {emailError && <p className="text-red-500">{emailError}</p>}
           <label htmlFor="">Password</label>
 
           <div className="relative">
