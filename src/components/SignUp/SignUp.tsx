@@ -70,7 +70,7 @@ const SignUp = () => {
       setIsLoading(false);
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("A user is already using the same email");
+      // alert("A user is already using the same email");
       setError("A user is already using the same email");
       setIsLoading(false);
     }
@@ -95,6 +95,7 @@ const SignUp = () => {
             placeholder="Name"
             value={data.name}
             onChange={handleChange}
+            required
           />
 
           <label htmlFor="">Username</label>
@@ -105,6 +106,7 @@ const SignUp = () => {
             placeholder="username"
             value={data.username}
             onChange={handleChange}
+            required
           />
 
           <label htmlFor="">Email</label>
@@ -115,6 +117,7 @@ const SignUp = () => {
             placeholder="email"
             value={data.email}
             onChange={handleChange}
+            required
           />
 
           <label htmlFor="">Password</label>
@@ -127,6 +130,7 @@ const SignUp = () => {
             placeholder="password"
             value={data.password}
             onChange={handleChange}
+            required
 
           />
           
@@ -136,7 +140,6 @@ const SignUp = () => {
 
           </div>
          
-
 
           <label htmlFor="">Confirm Password</label>
 
@@ -150,6 +153,7 @@ const SignUp = () => {
             placeholder="*************"
             value={data.confirm_password}
             onChange={handleChange}
+            required
           />
 
        <button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)} className="absolute  top-2 ">
@@ -192,6 +196,7 @@ const SignUp = () => {
             
           </button>
           {error && <p className="text-red-500">{error}</p>}
+        
           <div className="flex justify-center items-center gap-2">
             <p>Already have an account?</p>
             <Link href="/LoginPage" className="text-red-500 underline">
