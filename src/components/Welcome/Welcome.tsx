@@ -14,7 +14,7 @@ const Welcome = () =>{
  
  <div className='container mx-auto'>
 
-    <h1 className='font-bold text-[2rem] p-5'>welcome</h1>
+    <h1 className='font-bold text-[2rem] p-5 font-mono'>welcome</h1>
     <p className='p-5 mt-[-35px]'>Start your journey with ease  <br />
     and convenience. Enjoy the ride!
     </p>
