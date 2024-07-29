@@ -36,8 +36,8 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/login/", {
-        // const response = await fetch("https://rattleviper.pythonanywhere.com/api/login/", {
+      // const response = await fetch("http://localhost:8000/api/login/", {
+        const response = await fetch("https://k3k3.pythonanywhere.com/api/login/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

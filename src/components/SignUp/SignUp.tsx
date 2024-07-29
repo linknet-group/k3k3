@@ -71,10 +71,10 @@ const SignUp = () => {
 
 
     try {
-      const response = await fetch("http://localhost:8000/api/signup/", {
-      // const response = await fetch(
-      //   "https://rattleviper.pythonanywhere.com/api/signup/",
-      //   {
+      // const response = await fetch("http://localhost:8000/api/signup/", {
+      const response = await fetch(
+        "https://k3k3.pythonanywhere.com/api/signup/",
+        {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
