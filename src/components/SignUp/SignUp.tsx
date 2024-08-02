@@ -150,9 +150,25 @@ const SignUp = () => {
             required
           />
          {emailError && <p className="text-red-500">{emailError}</p>}
-          <label htmlFor="">Password</label>
+    
+         <div className="flex items-center justify-between">
+        <div>
+<label htmlFor="password" className="text-gray-500">
+          Password
+          
+        </label>
+</div>
 
-          <div className="relative">
+
+<div>
+<button  type="button" onClick={() => setPasswordVisible(!passwordVisible)}>
+            {passwordVisible ? "Hide" : "Show"}
+          </button>
+
+</div>
+        </div>
+
+       
           <input
             className="border rounded-[10px] outline-gray-500 p-[5px]"
             type={passwordVisible ? "text" : "password"}
@@ -164,18 +180,27 @@ const SignUp = () => {
 
           />
           
-          <button  type="button" onClick={() => setPasswordVisible(!passwordVisible)} className="absolute  top-2">
-            {passwordVisible ? "Hide" : "Show"}
+        
+
+         
+         
+          <div className="flex items-center justify-between">
+        <div>
+<label htmlFor="password" className="text-gray-500">
+          Confirm Password
+          
+        </label>
+</div>
+
+
+<div>
+<button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)}>
+            {confirmPasswordVisible ? "Hide" : "Show"}
           </button>
 
-          </div>
+</div>
+        </div>
          
-
-          <label htmlFor="">Confirm Password</label>
-
-          <div className="relative">
-
-
           <input
             className="border rounded-[10px] outline-gray-500 p-[5px]"
             type={confirmPasswordVisible ? "text" : "password"}
@@ -186,15 +211,10 @@ const SignUp = () => {
             required
           />
 
-       <button type="button" onClick={() => setConfirmPasswordVisible(!confirmPasswordVisible)} className="absolute  top-2 ">
-            {confirmPasswordVisible ? "Hide" : "Show"}
-          </button>
+    
 
-
-          </div>
         
-
-
+    
           <div className="pb-[20px]"></div>
           <button
             type="submit"

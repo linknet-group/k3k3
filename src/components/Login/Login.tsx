@@ -92,8 +92,24 @@ const Login = () => {
 
        
 
-        <label htmlFor="">Password</label>
-<div className="relative">
+<div className="flex items-center justify-between">
+        <div>
+<label htmlFor="password" className="text-gray-500">
+          Password
+          
+        </label>
+</div>
+
+
+<div>
+<button  type="button" onClick={() => setPasswordVisible(!passwordVisible)}>
+            {passwordVisible ? "Hide" : "Show"}
+          </button>
+
+</div>
+        </div>
+       
+
 
 
 <input className='border rounded-[10px] outline-gray-500 p-[5px]' 
@@ -106,10 +122,7 @@ const Login = () => {
 
         required
         />
-  <button  type="button" onClick={() => setPasswordVisible(!passwordVisible)} className="absolute  top-2">
-            {passwordVisible ? "Hide" : "Show"}
-          </button>
-</div>
+ 
 
      
        
